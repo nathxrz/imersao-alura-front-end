@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: #000;
+}
+
+body, a, button{
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 31.5rem;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.logo img{
+    width: 8rem;
+}
+
+.sidebar-navigation .logo{
+    background-color: #121212;
+    display: flex;
+    border-radius: .8rem;
+    padding: 1.6rem 0 0 1.6rem;
+}
+
+.sidebar-navigation{
+    background-color: #121212;
+    border-radius: .8rem;
+    padding: .8rem 0 0 1.6rem;
+}
+
+.sidebar-navigation ul{
+    margin-top: 2rem;
+    padding: 0 2rem 1rem 2rem;
+}
+
+.sidebar-navigation ul li{
+    padding: 1rem 0;
+}
+
+.sidebar-navigation ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.6rem;
+    /* font-family: "DM Sans", sans-serif; */
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.sidebar-library{
+    background-color: #121212;
+    border-radius: .8rem;
+    padding:1.6rem .8rem;
+}
+
+.sidebar-library a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.6rem;
+    /* font-family: "DM Sans", sans-serif; */
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.lib-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.fa-plus{
+
+    color: #b3b3b3;
+}
+
+.lib-playlist{
+    background-color: #242424;
+    padding: 1.6rem 2rem;
+
+    border-radius: .8rem;
+
+    color: #fff;
+    /* font-family: "DM Sans", sans-serif; */
+}
+
+.lib-playlist div {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.lib-playlist h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.lib-playlist span{
+    font-size: 1.3rem;
+}
+
+.lib-playlist button{
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: .8rem 1.6rem;
+    background-color: #fff;
+    border-radius: 99.99rem;
+    border: 0;
+    margin-top: 2rem;
+}
+
+.cookies{
+    color: #b3b3b3;
+    font-size: 1.2rem;
+    margin: 3rem 2rem;
+}
+
+.link-lang button{
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+    padding: .8rem 1.6rem;
+    background-color: #121212;
+    border-radius: 99.99rem;
+    margin: 2rem 1.6rem 0;
+    border: 1px solid #fff;
+}
