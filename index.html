@@ -17,32 +17,30 @@
 </head>
 <body>
     <div class="sidebar">
-        <nav class="sidebar-navigation">
+        <nav class="sidebar_navigation">
             <div class="logo">
                 <a href="">
                     <img src="./assets/icons/logo-spotify.png" alt="Logo do spotify">
                 </a>
             </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="">
-                            <span class="fa fa-home"></span>
-                            <span>Início</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span class="fa fa-search"></span>
-                            <span>Buscar</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="fa fa-home"></span>
+                        <span>Início</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="fa fa-search"></span>
+                        <span>Buscar</span>
+                    </a>
+                </li>
+            </ul>
         </nav>
 
-        <div class="sidebar-library">
-            <div class="lib-header">
+        <section class="sidebar_library">
+            <div class="lib_content">
                 <a href="">
                     <span class="fa fa-book"></span>
                     <span>Sua Biblioteca</span>
@@ -50,25 +48,37 @@
                 <i class="fa fa-plus"></i>
             </div>
             
-            <div class="lib-playlist">
-                <div>
+            <div class="lib_playlist">
+                <div class="lib_playlist__content">
                     <h3>Crie dua primeira playlist</h3>
                     <span>É fácil, vanos te ajudar.</span>
                 </div>
                 <button>Criar playlist</button>
             </div>
     
-            <p class="cookies">Cookies</p>
+            <div class="cookies">
+                <a href="">Cookies</a>
+            </div>
 
-            <div class="link-lang">
+            <div class="language">
                 <button>
                     <span class="fa fa-globe"></span>
                     <span>Português do Brasil</span>
                 </button>
             </div>
-        </div> 
+        </section> 
 
     </div>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <div class="footer__texts">
+                <h4>Testas o Premium de graça</h4>
+                <p>Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não precisa de cartão de crédito</p>
+            </div>
+            <button class="footer__button">Inscreva-se grátis</button>
+        </div>
+    </footer>
 
 </body>
 </html>
