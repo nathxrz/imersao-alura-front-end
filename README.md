@@ -8,7 +8,7 @@
 
 A <em>Web page</em> está sendo desenvolvida a partir da <em>home page</em> do #spotify, a qual possui tamanhos, cores, disposição e conteúdos semelhantes. O desenvolvimento desta página tem o propósito de colocar em prática os conhecimentos em <em><strong>HTML</strong></em>, <em><strong>CSS</strong></em> e <em><strong>JavaScript</strong></em>.
 
-- O projeto foi desenvolvido durante a imersão Front-end da <a href="https://www.alura.com.br/">@Alura</a>.
+- O projeto foi desenvolvido durante a imersão Front-end da <a href="https://www.alura.com.br/">@Alura</a>. #ImersãoFrontEnd #Alura
 
 > HTML:
 - Tags de texto;
