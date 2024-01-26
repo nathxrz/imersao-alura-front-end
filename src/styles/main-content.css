@@ -1,0 +1,140 @@
+/* header search */
+.main-container{
+    max-width: 80vw;
+    height: 100vh;
+
+    margin-left: 31.5rem;
+    margin-right: 5.6rem;
+    padding-top: 1.2rem;
+}
+
+.header__navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.2rem 2rem 1.2rem;
+
+    border-radius: .8rem;
+    background-color: var(--bg-base-darker);
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrow-left{
+    margin-right: 1.5rem;
+}
+
+.arrow-left, .arrow-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 3.2rem;
+    height: 3.2rem;
+
+    background: var(--bg-icon);
+    background-color: var(--bg-arrow-color);
+
+    border: none;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.header__search{
+    display: flex;
+    align-items: center;
+
+    width: 36.4rem;
+    height: 4.8rem;
+
+    margin-left: .8rem;
+
+    background-color: var(--bg-base-dark);
+
+    border-radius: 50rem;
+    border: 1px solid transparent;
+}
+
+.header__search img{
+    width: 1.6rem;
+    height: 1.6rem;
+
+    margin-left: 1rem;
+}
+
+.header__search input{
+    color: var(--fc-base-light);
+
+    border: none;
+    outline: none;
+
+    background: transparent;
+
+    padding: 0 10rem 0 1.2rem;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.header__login{
+    display: flex;
+    align-items: center;
+}
+
+.header__login .subscribe-btn{
+    color: var(--fc-nav);
+    font-size: 1.6rem;
+    font-weight: 700;
+
+    background-color: transparent;
+
+    margin-right: 3.2rem;
+
+    border: none;
+
+    cursor: pointer;
+}
+
+.header__login .login-btn{
+    width: 10rem;
+    height: 4.8rem;
+
+    color: var(--fc-base-dark);
+    font-size: 1.6rem;
+    font-weight: 700;
+
+    border-radius: 4rem;
+
+    cursor: pointer;
+}
+
+/* cards */
+.cards-container{
+    padding: 3rem 2rem;
+    margin-top: 1.2rem;
+
+    border-radius: .8rem;
+    background-color: var(--bg-base-darker);
+}
+
+.cards__texts h2, .cards__texts p{
+    color: var(--fc-base-light);
+}
+
+.cards__texts h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 4rem;
+}
+
+.cards__texts p{
+    font-size: 2rem;
+    font-weight: 600;
+}
