@@ -1,4 +1,4 @@
-<h1 align="center">Web page do #spotify <em>(em desenvolvimento)<em></h1>
+<h1 align="center">Web page do #spotify </h1>
 
 ![Imagem da página desenvolvida](./.github/preview-page.png)
 
