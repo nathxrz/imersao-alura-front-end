@@ -25,6 +25,11 @@
     align-items: center;
 }
 
+.header{
+  display: flex;
+  gap: 2rem;
+}
+
 .arrow-left{
     margin-right: 1.5rem;
 }
