@@ -26,6 +26,12 @@ A <em>Web page</em> está sendo desenvolvida a partir da <em>home page</em> do #
 - Propriedades de alinhamento e espaçamento;
 - Propriedades responsivas.
 
+> JS:
+- Variáveis;
+- Functions;
+- Eventos;
+- Criação e aplicação de API.
+
 > Protótipo:
 
 🔗 [Clique aqui para acessar](https://nathxrz.github.io/imersao-alura-front-end/)
